@@ -1,0 +1,22 @@
+#submit{
+    background-color: rgb(234, 204, 159);
+    border-radius: 2rem;
+    height: 3rem;
+    width: 15rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10rem;
+    margin-left: 13rem;
+
+}
+#submit:hover{
+    transform: scale(1.1);
+    background-color: beige;
+    border-style: dotted;
+}
+.para1{
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+}

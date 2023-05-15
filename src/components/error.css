@@ -1,0 +1,25 @@
+
+.btn{
+    color: black;
+    height: 50px;
+    width: 180px;
+
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 20px;
+border-radius: 20px;
+font-weight: 700;
+background-color: rgb(198, 228, 218);
+cursor: pointer;
+}
+.p{
+    font-size: 100px;
+    color: red;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: lightgreen;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+border-style: dashed;
+}
