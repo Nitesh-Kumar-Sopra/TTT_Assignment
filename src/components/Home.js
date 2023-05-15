@@ -34,7 +34,7 @@ const Home = () => {
         datasets: [{
           label: 'Word Frequency',
           data: chartData.map(data => data[1]),
-          // backgroundColor: ''
+          backgroundColor: 'rgb(241, 202, 82)'
         }],
       },
       options: {
